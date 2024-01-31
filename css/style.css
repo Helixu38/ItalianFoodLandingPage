@@ -20,7 +20,7 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    margin-right: 16px;
+    margin-right: 100px;
     gap: 16px;
 }
 
@@ -28,7 +28,7 @@ ul {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 16px;
+    margin-left: 100px;
     display: flex;
     align-items: center;
 }
@@ -37,6 +37,7 @@ ul {
     display: flex;
     color: #E5E7EB;
     font-size: 18px;
+    padding:100px
     
 }
 h1{
@@ -47,7 +48,6 @@ h1{
 }
 button{
     background-color: #3882f6;
-    align-self: flex-start;
     border-radius: 8px;
     padding: 15px 32px;
     font-size: 16px;
@@ -55,7 +55,6 @@ button{
 }
 .hero_right{
     flex: 50%;
-    margin-right: 48px;
     margin-left: 48px;
     margin-top: 16px;
     margin-bottom: 16px;
@@ -68,7 +67,76 @@ button{
 }
 .hero_left{
     flex: 50%;
-    margin-left: 16px;
     margin-bottom: 32px;
 }
+.information_container{
+    padding: 100px;
+}
 
+.information_header{
+    display: flex;
+    justify-content: center;
+}
+
+.card_container{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card{
+    border-style: groove;
+    border-radius: 10px;
+    border-color: #3882f6;
+    height: 100px;
+    width: 100px;
+}
+.card_content{
+    width: 100px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px;
+    font-weight: 100;
+}
+
+.quote_person{
+    display: flex;
+    justify-content: end;
+    margin: 100px;
+    font-weight: bold;
+}
+
+.newsletter{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.newsletter-right{
+    display: flex;
+    flex:50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.newsletter-right > button{
+    border-color: white;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    color: white;
+}
